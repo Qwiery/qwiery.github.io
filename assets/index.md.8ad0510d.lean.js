@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,d as o}from"./app.ba59f778.js";const s="/QwieryLogo.png",m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),n={name:"index.md"},r=o("",8),i=[r];function d(p,g,c,l,u,h){return a(),t("div",null,i)}const f=e(n,[["render",d]]);export{m as __pageData,f as default};
