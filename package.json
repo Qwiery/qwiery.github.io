@@ -1,24 +1,24 @@
 {
-  "name": "todelete.github.io",
+  "name": "qwiery.github.io",
   "version": "1.0.0",
-  "description": "https://vitepress.vuejs.org/guide/deploying",
+  "description": "Qwiery documentation",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Orbifold/todelete.github.io.git"
+    "url": "git+https://github.com/Qwiery/qwiery.github.io"
   },
   "keywords": [],
   "author": "Swa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Orbifold/todelete.github.io/issues"
+    "url": "https://github.com/Qwiery/qwiery.github.io/issues"
   },
-  "homepage": "https://github.com/Orbifold/todelete.github.io#readme",
+  "homepage": "https://github.com/Qwiery/qwiery.github.io#readme",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.46",
     "vue": "^3.2.47"
