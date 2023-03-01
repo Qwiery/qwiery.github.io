@@ -16,6 +16,7 @@ export default {
           { text: 'Introduction', link: '/guide/index' },
           { text: 'Getting Started', link: '/guide/getting-started' },
           { text: 'Plugins', link: '/guide/plugins' },
+          { text: 'Adapters', link: '/guide/adapters' },
         ]
       }
     ],
