@@ -1,11 +1,87 @@
-# Gettings started
+# Getting started
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a mauris mollis, pellentesque metus nec, fermentum nunc. Nunc tempor maximus erat, faucibus laoreet lorem finibus non. Aenean molestie tellus lacus, elementum porttitor nunc molestie in. Sed sollicitudin lacus eu lectus commodo sagittis. Nulla facilisi. Vivamus vitae nulla blandit, semper lorem non, viverra elit. Nunc maximus tellus vel diam mattis imperdiet. Ut aliquam molestie magna, sit amet euismod neque eleifend at. Vestibulum ut dictum neque. Donec nisl nisi, consequat fermentum ultricies eget, sagittis in ex.
+Install Qwiery with
 
-Suspendisse dapibus feugiat venenatis. Maecenas rhoncus elit a aliquam porttitor. Phasellus suscipit eget velit eget tincidunt. Sed non euismod nibh, vitae dapibus arcu. Nullam in tortor augue. Ut varius tortor id dapibus fermentum. Donec pretium sed quam ut varius. Vivamus malesuada feugiat mauris nec laoreet. Integer ac suscipit est, non scelerisque lectus.
+```
+npm i @qwiery/qwiery
+```
 
-Morbi non massa ut ipsum bibendum malesuada. Integer vitae faucibus sapien. In hac habitasse platea dictumst. Praesent vitae velit augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sodales nisi vitae iaculis mattis. Pellentesque pretium, dui non interdum ullamcorper, nibh elit consectetur arcu, quis sollicitudin libero nunc eget velit. Etiam vestibulum ex at velit suscipit fermentum et sed ipsum. Duis a sollicitudin turpis. Aliquam in magna tempus, laoreet lorem in, pellentesque dui. Morbi lacinia turpis nec augue condimentum cursus. Ut a blandit urna. Quisque vitae convallis urna. Suspendisse ac congue nisi. Quisque semper egestas quam. Mauris bibendum enim lacus, ut tincidunt ligula vestibulum sed.
+and you can immediately create graphs from here on:
 
-Mauris et diam convallis, vulputate felis tincidunt, faucibus magna. Sed sollicitudin orci ligula, vel gravida magna malesuada sit amet. Ut imperdiet justo dolor, a pretium purus accumsan nec. Ut lobortis urna a dictum tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dignissim nec justo vitae sollicitudin. Vivamus eu laoreet risus, lacinia volutpat felis. Vivamus fermentum et eros et sollicitudin. Nam eget tortor ultrices, luctus erat ac, gravida neque. Sed pulvinar aliquet massa. Praesent varius rhoncus sagittis.
+```js
+const Qwiery = require("qwiery");
+const q = new Qwiery();
+const a = await q.createNode("a");
+const b = await q.createNode("b");
+const edge = await q.createEdge("a","b");
+console.log(a, b,edge);
+```
 
-Integer maximus quam orci, nec sollicitudin mauris cursus a. Suspendisse ut maximus erat. Pellentesque sit amet urna imperdiet, rhoncus ligula sed, cursus lacus. Mauris nunc purus, pharetra placerat condimentum eu, ultricies vel ligula. Vivamus maximus mauris ut justo feugiat viverra. Nullam semper accumsan gravida. Praesent a tempor massa. Sed convallis quis tortor vel viverra.
+Qwiery uses by default an in-memory storage adapter, meaning that all you do is volatile and nothing is saved anywhere. Adapters are a special type of plugin which connect to a backend. For example, if you want to transparently have the graphs in [Neo4j](https://qwiery.github.io/adapters/Neo4j/) you would use:
+
+```js
+const Qwiery = require("qwiery");
+const Neo4j = require("qwiery-neo4j");
+
+Qwiery.plugin(Neo4j);
+const q = new Qwiery({
+    adapters: ["neo4j"],
+    neo4j: {
+        host: "localhost",
+        port: 7687,
+        user: "neo4j",
+        password: "your-password",
+    },
+});
+
+const a = await q.createNode("a");
+const b = await q.createNode("b");
+const edge = await q.createEdge("a","b");
+console.log(a, b,edge);
+```
+A Qwiery plugin extends the API and can be stacked. For example, if you wish to have a graph schema you can hook up the [Schema](https://qwiery.github.io/plugins/Schema/) plugin by first defining a schema (aka ontology):
+
+```js
+const schema = {
+    nodes: [
+        {
+            id: "Person",
+            name: "Person",
+            age: "number",
+        },
+        {
+            id: "Job",
+            name: "Job",
+            title: "string",
+        },
+    ],
+    edges: [
+        {            
+            name: "HasJob",
+            source: "Person",
+            target: "Job",
+        }
+    ]
+}
+```
+A schema is just a special type of graph which constraints the allowed data (both nodes and edges). The schema above effectively says that:
+- only two types of nodes are allowed
+- only one type of edge is allowed from Person to Job and has label "HasJob"
+- Person has an 'age' attribute and Job has 'title'
+
+Anything else will throw an error.
+To enable this in Qwiery, use:
+
+```js
+const Qwiery = require("qwiery");
+const Schema = require("qwiery-schema");
+
+Qwiery.plugin(Schema);
+const q = new Qwiery();
+q.setSchema(schema);
+```
+The `setSchema` method is defined in the plugin and extends the Qwiery API. In addition, it plugs into the storage pipeline to check whether incoming nodes and edges conform to the specified schema.
+
+Of course, you can combine the Neo4j and Schema plugins to effectively create middleware specific to your case.
+
+

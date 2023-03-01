@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="691px" height="646px" viewBox="0 0 691 646" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>QwieryLogo</title>
+    <defs>
+        <polygon id="path-1" points="0 284 0 499 115 572 115.220779 643 230 572 345.008175 644.31645 344.990178 572 459.009822 646 574 574 575 501 690 428 690 284 574.990178 212 575 72 460.220779 3.16723873e-15 345 68 345 140 230.220779 68 115 140 115.220779 216"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.779221, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-132.779221, -148.000000)">
+                    <polygon id="Polygon" fill="#658FC9" points="247.779221 364 362.769399 436 362.769399 580 247.779221 652 132.789042 580 132.789042 436"></polygon>
+                    <polygon id="Polygon-Copy-30" fill="#1A2330" points="707.779221 362 822.769399 434 822.769399 578 707.779221 650 592.789042 578 592.789042 434"></polygon>
+                    <polygon id="Polygon-Copy-3" fill="#E49B45" points="362.779221 217 477.769399 289 477.769399 433 362.779221 505 247.789042 433 247.789042 289"></polygon>
+                    <polygon id="Polygon-Copy-5" fill="#98B8E2" points="362.779221 293 477.769399 365 477.769399 509 362.779221 581 247.789042 509 247.789042 365"></polygon>
+                    <polygon id="Polygon-Copy" fill="#8AD9F8" points="247.779221 432 362.769399 504 362.769399 648 247.779221 720 132.789042 648 132.789042 504"></polygon>
+                    <polygon id="Polygon-Copy-6" fill="#658FC9" points="477.779221 364 592.769399 436 592.769399 580 477.779221 652 362.789042 580 362.789042 436"></polygon>
+                    <polygon id="Polygon-Copy-2" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 504 247.769399 576 247.769399 720 132.779221 792 17.7890425 720 17.7890425 576"></polygon>
+                    <polygon id="Polygon-Copy-7" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 576 247.769399 648 247.769399 792 132.779221 864 17.7890425 792 17.7890425 648"></polygon>
+                    <polygon id="Polygon-Copy-12" fill-opacity="0.4" fill="#FFFFFF" points="362.779221 505 477.769399 577 477.769399 721 362.779221 793 247.789042 721 247.789042 577"></polygon>
+                    <polygon id="Polygon-Copy-8" fill="#E49B45" points="362.779221 576 477.769399 648 477.769399 792 362.779221 864 247.789042 792 247.789042 648"></polygon>
+                    <polygon id="Polygon-Copy-9" fill-opacity="0.6" fill="#FFFFFF" points="362.779221 648 477.769399 720 477.769399 864 362.779221 936 247.789042 864 247.789042 720"></polygon>
+                    <polygon id="Polygon-Copy-10" fill-opacity="0.6" fill="#FFFFFF" points="362.779221 720 477.769399 792 477.769399 936 362.779221 1008 247.789042 936 247.789042 792"></polygon>
+                    <polygon id="Polygon-Copy-4" fill-opacity="0.6" fill="#FFFFFF" points="477.779221 76 592.769399 148 592.769399 292 477.779221 364 362.789042 292 362.789042 148"></polygon>
+                    <polygon id="Polygon-Copy-13" fill="#8FB547" points="592.779221 148 707.769399 220 707.769399 364 592.779221 436 477.789042 364 477.789042 220"></polygon>
+                    <polygon id="Polygon-Copy-14" fill-opacity="0.6" fill="#9EC46E" points="592.779221 73 707.769399 145 707.769399 289 592.779221 361 477.789042 289 477.789042 145"></polygon>
+                    <polygon id="Polygon-Copy-23" fill="#69A3D4" points="937.779221 432 1052.7694 504 1052.7694 648 937.779221 720 822.789042 648 822.789042 504"></polygon>
+                    <polygon id="Polygon-Copy-15" fill-opacity="0.6" fill="#FFFFFF" points="592.779221 0 707.769399 72 707.769399 216 592.779221 288 477.789042 216 477.789042 72"></polygon>
+                    <polygon id="Polygon-Copy-19" fill-opacity="0.2" fill="#FFFFFF" points="707.779221 216 822.769399 288 822.769399 432 707.779221 504 592.789042 432 592.789042 288"></polygon>
+                    <polygon id="Polygon-Copy-21" fill-opacity="0.4" fill="#FFFFFF" points="822.779221 576 937.769399 648 937.769399 792 822.779221 864 707.789042 792 707.789042 648"></polygon>
+                    <polygon id="Polygon-Copy-22" fill-opacity="0.4" fill="#FFFFFF" points="822.779221 576 937.769399 648 937.769399 792 822.779221 864 707.789042 792 707.789042 648"></polygon>
+                    <polygon id="Polygon-Copy-20" fill-opacity="0.6" fill="#77ABDC" points="822.779221 648 937.769399 720 937.769399 864 822.779221 936 707.789042 864 707.789042 720"></polygon>
+                    <polygon id="Polygon-Copy-27" fill="#394B63" points="592.779221 432 707.769399 504 707.769399 648 592.779221 720 477.789042 648 477.789042 504"></polygon>
+                    <polygon id="Polygon-Copy-25" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 648 247.769399 720 247.769399 864 132.779221 936 17.7890425 864 17.7890425 720"></polygon>
+                    <polygon id="Polygon-Copy-26" fill="#9EC46E" points="592.779221 505 707.769399 577 707.769399 721 592.779221 793 477.789042 721 477.789042 577"></polygon>
+                    <polygon id="Polygon-Copy-28" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 648 247.769399 720 247.769399 864 132.779221 936 17.7890425 864 17.7890425 720"></polygon>
+                    <polygon id="Polygon-Copy-16" fill-opacity="0.4" fill="#658FC9" points="822.779221 506 937.769399 578 937.769399 722 822.779221 794 707.789042 722 707.789042 578"></polygon>
+                    <polygon id="Polygon-Copy-24" fill-opacity="0.6" fill="#69A3D4" points="937.779221 503 1052.7694 575 1052.7694 719 937.779221 791 822.789042 719 822.789042 575"></polygon>
+                    <polygon id="Polygon-Copy-11" fill="#98BE5E" points="592.779221 577 707.769399 649 707.769399 793 592.779221 865 477.789042 793 477.789042 649"></polygon>
+                    <polygon id="Polygon-Copy-18" fill-opacity="0.4" fill="#658FC9" points="707.779221 362 822.769399 434 822.769399 578 707.779221 650 592.789042 578 592.789042 434"></polygon>
+                    <polygon id="Polygon-Copy-29" fill-opacity="0.4" fill="#658FC9" points="592.779221 648 707.769399 720 707.769399 864 592.779221 936 477.789042 864 477.789042 720"></polygon>
+                    <polygon id="Polygon-Copy-17" fill-opacity="0.6" fill="#FFFFFF" points="706.779221 722 821.769399 794 821.769399 938 706.779221 1010 591.789042 938 591.789042 794"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

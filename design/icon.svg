@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(117.000000, 40.000000)">
+            <polygon id="Polygon-Copy-6" fill="#658FC9" points="132.779221 2 247.769399 74 247.769399 218 132.779221 290 17.7890425 218 17.7890425 74"></polygon>
+            <polygon id="Polygon-Copy-13" fill="#8FB547" points="132.779221 76 247.769399 148 247.769399 279 132.789042 349 17.7890425 292 17.7890425 148"></polygon>
+            <polygon id="Polygon-Copy-14" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 146 247.769399 218 247.769399 349 132.77431 421 17.7792208 349 17.7890425 218"></polygon>
+            <polygon id="Polygon-Copy-15" fill-opacity="0.6" fill="#FFFFFF" points="132.779221 205 247.769399 277 247.769399 279 132.789042 349 17.7890425 277"></polygon>
+            <polygon id="Polygon-Copy-3" fill-opacity="0.6" fill="#E49B45" points="247.769399 279 247.769399 349 132.789042 421 132.789042 349"></polygon>
+            <polygon id="Polygon-Copy-3" fill="#E49B45" points="17.7792208 277 132.769399 349 132.779221 421 17.7890425 349"></polygon>
+            <polygon id="Polygon-Copy-16" fill-opacity="0.2" fill="#FFFFFF" points="247.769399 74 247.769399 218 132.779221 146 130.789042 3.53101581e-17"></polygon>
+        </g>
+    </g>
+</svg>
