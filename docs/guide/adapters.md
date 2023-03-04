@@ -44,9 +44,9 @@ function DefaultNodeLabelAdapter(options, done) {
 					if (specs.labels.length === 0) {
 						specs.labels = ["Something"];
 					}
-					return done(null, [data, id, specs.labels]);
+					return done(null, [data, id, specs.labels],null);
 				}
-				return done("Failed to interprete the parameters as node specs.", null);
+				return done("Failed to interprete the parameters as node specs.", [data, id, specs.labels], null);
 			};
 		},
 	};
@@ -57,7 +57,7 @@ function DefaultNodeLabelAdapter(options, done) {
 	});
 }
 ```
-This function is an adapter you can register like so:
+This function is an adapter and you can register it like so:
 ```js
 	Qwiery.plugin((Q) => {
 			Q.adapter("set-node-label", DefaultNodeLabelAdapter);
@@ -72,3 +72,29 @@ There are various things to highlight here:
 - the `done` method with an error in the first argument will raise an exception and the second parameter is irrelevant at this point.
 - the `nextTick` is a trick to ensure that the adapter is hooked up prior to any other call. It effectively ensures that any potential `createNode` call will come after the adapter has been registered.
 
+::: danger Important
+The structure and method signatures have to be as shown above. That is, a typical API storage method should look like
+```js
+{
+    methodName(done)
+    {
+        return async ([x, y, z]) => {
+            let allIsWell = false;
+            // implementation
+            allIsWell = true
+            if (allIsWell) {
+                return done(null, [x, y, z], null);
+            }
+            return done("Your error",null, null);
+        }
+    }
+
+}
+```
+:::
+
+The callback function `done(error, params, created)` is defined in such a way to accommodate multiple scenarios:
+
+- if the `error` is not nil an exception will be raised.
+- the `params` can be the original arguments or changed in whatever way. This allows adapters to be chained and the alter incoming parameters, e.g. assign defaults.
+- the `created` is optional and is the element or data that has been created. If another adapters follows it can process this created value or simply pass it on. If no other adapter is aligned this created data will be returned to the caller. This allows both to sequentially chain values and to return something to the caller. 

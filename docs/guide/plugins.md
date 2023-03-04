@@ -54,4 +54,13 @@ module.exports = function (Q) {
 ```
 Note that the `getNode` method is part of the Qwiery storage API. The way the `getPerson` is fetched is really dependent on the registered adapters. A plugin can in fact act both on the API and on the storage level. The [Schema](https://qwiery.github.io/plugins/Schema/) plugin is an example of this.
 
+Plugins and adapters are really complementary in the sense that plugins extend the API while adapters change the existing API. It is tempting to write a plugin which tries to change the behavior of, say, `createNode` but this will not work as expected. If you want to change the logic of a method like `createNode` you need to use an adapter rather than a plugin. At the same time, if you want to add a method to the API and consume the core API this will be fine. You can also combine both in one go, the [Schema](https://qwiery.github.io/plugins/Schema/) plugin does this, as can be seen in the following:
 
+```js
+module.exports = (Q) => {
+	// the adapter guards the incoming data
+	Q.adapter("schema", SchemaAdapter);
+	// the api adds schema methods to Qwiery
+	Q.plugin(SchemaApi);
+};
+```
