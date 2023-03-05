@@ -98,3 +98,67 @@ The callback function `done(error, params, created)` is defined in such a way to
 - if the `error` is not nil an exception will be raised.
 - the `params` can be the original arguments or changed in whatever way. This allows adapters to be chained and the alter incoming parameters, e.g. assign defaults.
 - the `created` is optional and is the element or data that has been created. If another adapters follows it can process this created value or simply pass it on. If no other adapter is aligned this created data will be returned to the caller. This allows both to sequentially chain values and to return something to the caller. 
+
+## Adapter template
+
+The following snippet can serve as a starting point for your own adapter. It transparently adds a timestamp to new nodes:
+
+```js
+function MyAdapter(Q) {
+    function CustomAdapterMethods(options, done) {
+        // implement only those methods you wish to alter
+        const api = {
+            createNode(done) {
+                return async ([data, id, labels]) => {
+                    const d = {
+                        timestamp: Date.now(),
+                    };
+                    if(_.isString(data)){
+                        data = {
+                            id: data
+                        }
+                    }
+                    Object.assign(d, data);
+                    done(null, [d, id, labels], null);
+                };
+            }
+        }
+        process.nextTick(() => {
+            // first param is an init error
+            done(null, api);
+        });
+    }
+    
+    Q.adapter("my-adapter", CustomAdapterMethods);
+}
+```
+To register the adapter you need something like
+
+```js
+const q = new Qwiery({adapters: ["my-adapter", "memory"]})
+```
+
+The 'memory' id refers to the default in-memory storage. If you omit it nothing will be stored, not even in memory. You also change this to another adapter of course:
+
+```js
+const q = new Qwiery({adapters: ["my-adapter", "neo4j"]})
+```
+or you can even stack the adapters:
+```js
+const q = new Qwiery({adapters: ["my-adapter", "neo4j", "mySql"]})
+```
+
+## Filtering (aka projections)
+
+Methods like `getNode` expect by default an id of the node to fetch, you can also specify a Mongo-like filter object. The reason for this is simple, while something like the in-memory adapter can handle a JavaScript function this is not the case for the various backends out there. For instance, you can't insert a JavaScript function inside Cypher and expect Neo4j to understand it. To alleviate this some form of generic filtering syntax is necessary which can be turned inside a specific adapter into something that the backend understands. The MongoDB filtering syntax is quite generic and can be easily parsed. So, this is the type of objects that you can pass in methods like `getNode`:
+
+```js
+const q = new Qwiery();
+await q.createNode({x:1, y:-1});
+const found = await q.getNode({y:{$lt: 0}});
+```
+You can find a concrete interpretation of these so-called projections in the [Neo4j adapter](https://github.com/Qwiery/qwiery/blob/main/packages/qwiery-neo4j/lib/projections.js).
+
+This projection syntax obviously does not cover the full breadth of each and every backend. You can, however, easily pass the given argument down to your custom adapter and deal with the backend specifics there. The MongoDB syntax is just a convenient common denominator which works well for most use case (and for prototyping applications).
+
+
