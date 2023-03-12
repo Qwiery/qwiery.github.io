@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,d as n}from"./app.849f28db.js";const u=JSON.parse('{"title":"Graphs","description":"","frontmatter":{},"headers":[],"relativePath":"guide/graphs.md"}'),o={name:"guide/graphs.md"},p=n("",11),t=[p];function l(r,c,i,d,y,h){return e(),a("div",null,t)}const C=s(o,[["render",l]]);export{u as __pageData,C as default};
