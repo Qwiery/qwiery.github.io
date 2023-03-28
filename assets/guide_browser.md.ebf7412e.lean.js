@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as l}from"./app.5347fd45.js";const A=JSON.parse('{"title":"Browser Integration","description":"","frontmatter":{},"headers":[],"relativePath":"guide/browser.md"}'),o={name:"guide/browser.md"},p=l("",4),t=[p];function e(c,r,F,D,y,i){return a(),n("div",null,t)}const u=s(o,[["render",e]]);export{A as __pageData,u as default};

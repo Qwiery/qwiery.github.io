@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,d as o}from"./app.849f28db.js";const _=JSON.parse('{"title":"Intro","description":"","frontmatter":{},"headers":[],"relativePath":"guide/index.md"}'),s={name:"guide/index.md"},n=o("",7),r=[n];function i(d,g,p,c,l,u){return a(),t("div",null,r)}const f=e(s,[["render",i]]);export{_ as __pageData,f as default};
