@@ -18,7 +18,8 @@ export default {
                     {text: 'Plugins', link: '/guide/plugins'},
                     {text: 'Adapters', link: '/guide/adapters'},
                     {text: 'Graphs', link: '/guide/graphs'},
-                    {text: 'Utilities', link: '/guide/utils'}
+                    {text: 'Utilities', link: '/guide/utils'},
+                    {text: 'Browser', link: '/guide/browser'}
                 ]
             }
         ],

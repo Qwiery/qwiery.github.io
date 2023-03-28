@@ -4,7 +4,7 @@
   "description": "Qwiery documentation",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "start": "vitepress dev docs",
     "build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
