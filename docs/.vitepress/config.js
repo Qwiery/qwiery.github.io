@@ -6,7 +6,7 @@ export default {
     themeConfig: {
         logo: '/QwierySmall.png',
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/Qwiery/qwiery'},
+            {icon: 'github', link: 'https://github.com/Qwiery/'},
             {icon: 'twitter', link: 'https://twitter.com/TheOrbifold'}
         ],
         sidebar: [
