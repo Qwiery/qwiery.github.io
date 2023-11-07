@@ -1,8 +1,18 @@
 {
   "name": "qwiery.github.io",
   "version": "1.0.0",
-  "description": "Qwiery documentation",
+  "description": "Qwiery is an open source toolbox to create graph-driven apps.",
   "main": "index.js",
+  "keywords": [
+    "graph",
+    "graphdatabase",
+    "graphvisualization",
+    "neo4j",
+    "ogma",
+    "yfiles",
+    "cytoscapejs",
+    "nuxt"
+  ],
   "scripts": {
     "start": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -12,15 +22,15 @@
     "type": "git",
     "url": "git+https://github.com/Qwiery/qwiery.github.io"
   },
-  "keywords": [],
-  "author": "Swa",
-  "license": "ISC",
+  "author": "Orbifold Consulting <info@orbifold.net>",
+  "homepage": "https://qwiery.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Qwiery/qwiery.github.io/issues"
   },
-  "homepage": "https://github.com/Qwiery/qwiery.github.io#readme",
+
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.46",
-    "vue": "^3.2.47"
+    "vitepress": "^1.0.0-rc.25",
+    "vue": "^3.3.2"
   }
 }

@@ -19,6 +19,7 @@ export default {
                     {text: 'Adapters', link: '/guide/adapters'},
                     {text: 'Graphs', link: '/guide/graphs'},
                     {text: 'Utilities', link: '/guide/utils'},
+                    {text: 'Clients', link: '/guide/clients'},
                     {text: 'Browser', link: '/guide/browser'}
                 ]
             }
@@ -49,6 +50,14 @@ export default {
                 items: [
                     {text: 'Schema', link: '/plugins/Schema/index'},
                     {text: 'Semantic', link: '/plugins/Semantic/index'}
+                ]
+            },
+            {
+                text: 'Clients',
+                items: [
+                    {text: 'Nuxt', link: '/clients/nuxt/index'},
+                    {text: 'React', link: '/clients/react/index'},
+                    {text: 'Angular', link: '/clients/angular/index'}
                 ]
             }
         ]
