@@ -2,6 +2,7 @@ export default {
     title: 'Qwiery',
     description: 'Qwiery is a powerful framework for managing graph-like data in the browser and server-side.',
     cleanUrls: true,
+    ignoreDeadLinks: true,
     base: "/",
     themeConfig: {
         logo: '/QwierySmall.png',
