@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Qwiery/qwiery.github.io"
+    "url": "git+https://github.com/Qwiery/qwiery-nuxt.git"
   },
   "author": "Orbifold Consulting <info@orbifold.net>",
   "homepage": "https://qwiery.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Qwiery/qwiery.github.io/issues"
+    "url": "https://github.com/Qwiery/qwiery-nuxt/issues"
   },
 
   "devDependencies": {

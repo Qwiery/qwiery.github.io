@@ -7,7 +7,7 @@ features:
       dark: /plugin.dark.svg
       light: /plugin.light.svg
     title: Plugins
-    details: Use plugins to assemble functionality or to extend Qwiery, see e.g. <strong><a href="/plugins/semantic/">the semantic extensions</a></strong> or <strong><a href="/plugins/Schema/">the schema and ontology plugin</a></strong>. Creating your own plugins is simple, see our <strong><a href="/guide/plugins">plugins guide</a></strong>.
+    details: Use plugins to assemble functionality or to extend Qwiery, see e.g. <strong><a href="/plugins/semantic/">the semantic extensions</a></strong> or <strong><a href="/plugins/Schema/">the schema and ontology plugin</a></strong>. Creating your own plugins is simple, see our <strong><a href="/dal/plugins">plugins guide</a></strong>.
   - icon:
       dark: /adapter.dark.svg
       light: /adapter.light.svg
@@ -28,7 +28,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/index
+      link: /dal/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/Qwiery/qwiery

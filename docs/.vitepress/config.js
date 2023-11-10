@@ -12,16 +12,34 @@ export default {
         ],
         sidebar: [
             {
+                text: 'Qwiery Graph API',
+                items: [
+                    {text: 'Introduction', link: '/dal/index'},
+                    {text: 'Getting Started', link: '/dal/getting-started'},
+                    {text: 'Plugins', link: '/dal/plugins'},
+                    {text: 'Adapters', link: '/dal/adapters'},
+                    {text: 'Graphs', link: '/dal/graphs'},
+                    {text: 'Utilities', link: '/dal/utils'},
+                    {text: 'Clients', link: '/dal/clients'},
+                    {text: 'Browser', link: '/dal/browser'}
+                ]
+            },
+            {
+                text: 'Nuxt Client',
+                items: [
+                    {text: 'Overview', link: '/clients/nuxt/index'},
+                    {text: 'Web API', link: '/clients/nuxt/webapi'},
+                    {text: 'Schema Viz', link: '/clients/nuxt/schemaviz'},
+
+                ]
+            },
+            {
                 text: 'Guide',
                 items: [
-                    {text: 'Introduction', link: '/guide/index'},
-                    {text: 'Getting Started', link: '/guide/getting-started'},
-                    {text: 'Plugins', link: '/guide/plugins'},
-                    {text: 'Adapters', link: '/guide/adapters'},
-                    {text: 'Graphs', link: '/guide/graphs'},
-                    {text: 'Utilities', link: '/guide/utils'},
-                    {text: 'Clients', link: '/guide/clients'},
-                    {text: 'Browser', link: '/guide/browser'}
+                    {text: 'Graph Databases', link: '/guide/graphdatabases'},
+                    {text: "Schema's", link: '/guide/schemas'},
+                    {text: "Triple Stores", link: '/guide/triplestores'},
+
                 ]
             }
         ],
@@ -30,11 +48,11 @@ export default {
             copyright: 'By <a href="https://graphsandnetworks.com" target="_blank">Orbifold Consulting</a>'
         },
         editLink: {
-            pattern: 'https://github.com/Qwiery/qwiery.github.io/edit/main/docs/:path',
+            pattern: 'https://github.com/Qwiery/qwiery.github.io.git/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
         nav: [
-            {text: 'Guide', link: '/guide/index'},
+            {text: 'Guide', link: '/dal/index'},
             {
                 text: 'Adapters',
                 items: [

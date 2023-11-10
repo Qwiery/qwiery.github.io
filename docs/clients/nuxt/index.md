@@ -118,7 +118,7 @@ Note that by default the JsonGraphStore is used.
 - Qwiery plugins allowing all sorts of things like schema protection, triples and more
 - a clone of Neo4j's Bloom
 
-🧨[Qwiery's mechanics is detailed here.](/guide/getting-started)
+🧨[Qwiery's mechanics is detailed here.](/dal/getting-started)
 
 ## Feedback
 
