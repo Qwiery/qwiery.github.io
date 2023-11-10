@@ -31,7 +31,7 @@ hero:
       link: /dal/index
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Qwiery/qwiery
+      link: https://github.com/Qwiery/
 
 ---
 
