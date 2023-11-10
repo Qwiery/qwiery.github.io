@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as o,Q as e}from"./chunks/framework.b67c47e6.js";const E=JSON.parse('{"title":"Qwiery Utils","description":"","frontmatter":{},"headers":[],"relativePath":"dal/utils.md","filePath":"dal/utils.md"}'),l={name:"dal/utils.md"},n=e("",24),t=[n];function p(r,i,c,y,u,d){return a(),o("div",null,t)}const m=s(l,[["render",p]]);export{E as __pageData,m as default};
