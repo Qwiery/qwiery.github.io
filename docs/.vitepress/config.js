@@ -78,6 +78,14 @@ export default {
                     {text: 'React', link: '/clients/react/index'},
                     {text: 'Angular', link: '/clients/angular/index'}
                 ]
+            },
+            {
+                text: 'Graphviz',
+                items: [
+                    {text: 'Cytoscape', link: '/graphviz/cytoscape/index'},
+                    {text: 'Ogma', link: '/graphviz/ogma/index'},
+                    {text: 'yFiles', link: '/graphviz/yfiles/index'}
+                ]
             }
         ]
     },
