@@ -20,15 +20,15 @@ features:
     details: The Qwiery API is geared towards productivity and minimal friction. You can use it to quickly prototype graph applications and scale it to a robust enterprise application by means of plugins and backend adapters.
 hero:
   name: Qwiery
-  text: Graph Data Framework 
-  tagline: Qwiery is a powerful framework for managing graph-like data in the browser and server-side. It supports a wide range of use-cases by means of plugins and storage adapters. 
+  text: Graph Application Framework 
+  tagline: Qwiery is a powerful toolbox to create interactive graph-driven apps. It's open source but has support for enterprise-level visualization frameworks and adapters for various backends.  
   image:
     src: /QwieryLogo.png
     alt: Qwiery Graph Framework
   actions:
     - theme: brand
       text: Get Started
-      link: /dal/index
+      link: /guide/gettingstarted
     - theme: alt
       text: View on GitHub
       link: https://github.com/Qwiery/

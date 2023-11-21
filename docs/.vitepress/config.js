@@ -12,6 +12,16 @@ export default {
         ],
         sidebar: [
             {
+                text: 'Guide',
+                items: [
+                    {text: 'Getting Started', link: '/guide/gettingstarted'},
+                    {text: 'Graph Databases', link: '/guide/graphdatabases'},
+                    {text: "Schema's", link: '/guide/schemas'},
+                    {text: "Triple Stores", link: '/guide/triplestores'},
+
+                ]
+            },
+            {
                 text: 'Qwiery Graph API',
                 items: [
                     {text: 'Introduction', link: '/dal/index'},
@@ -32,16 +42,8 @@ export default {
                     {text: 'Schema Viz', link: '/clients/nuxt/schemaviz'},
 
                 ]
-            },
-            {
-                text: 'Guide',
-                items: [
-                    {text: 'Graph Databases', link: '/guide/graphdatabases'},
-                    {text: "Schema's", link: '/guide/schemas'},
-                    {text: "Triple Stores", link: '/guide/triplestores'},
-
-                ]
             }
+
         ],
         footer: {
             message: '',
@@ -52,7 +54,7 @@ export default {
             text: 'Edit this page on GitHub'
         },
         nav: [
-            {text: 'Guide', link: '/dal/index'},
+            {text: 'Guide', link: '/guide/gettingstarted'},
             {
                 text: 'Adapters',
                 items: [
