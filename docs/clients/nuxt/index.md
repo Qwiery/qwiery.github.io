@@ -1,4 +1,4 @@
-# Qwiery for Nuxt
+# Nuxt Client
 
 The [Nuxt](https://nuxt.com) client allows to integrate the main graph visualization libraries on the front-end and diverse graph and classic databases in the backend.
 
@@ -30,7 +30,7 @@ In order to run you need:
 - a yFiles zip containing the demo code and npm package(s),
 - a valid license in the form of a JSON files or snippet.
 
-Unizp the distributable (something like `yFiles-for-HTML-Complete-2.6.0.2`) and under `lib-dev` copy the path to `yfiles-umd-26.0.2+dev.tgz`. This is the path you need to assign to the `yfile` dependency in `package.json`.
+Unzip the distributable (something like `yFiles-for-HTML-Complete-2.6.0.2`) and under `lib-dev` copy the path to `yfiles-umd-26.0.2+dev.tgz`. This is the path you need to assign to the `yfile` dependency in `package.json`.
 
 The license snippet can be either put directly in the code
 

@@ -22,9 +22,12 @@ If you need more juice on the visualization level, we have also branches on top 
 
 If you need more business logic or middleware, the code is well-documented and carefully crafted:
 
-- extend the Qwiery data layer with plugins and adapters
-- an overview of the architecture
-- styling and branding
+- extend the Qwiery data layer with [plugins](/dal/plugins) and [adapters](/dal/adapters)
+- an overview of the [architecture](/guide/architecture)
+- [how to deploy](/guide/deployment)
+- [styling and branding](/clients/nuxt/styling)
+
+
 
 ::: info Support
 This is open source software (MIT license) and comes with [good-intentions support](/oss). 

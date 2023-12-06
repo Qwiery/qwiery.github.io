@@ -28,7 +28,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/gettingstarted
+      link: /guide/getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/Qwiery/

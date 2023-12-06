@@ -14,7 +14,7 @@ export default {
             {
                 text: 'Guide',
                 items: [
-                    {text: 'Getting Started', link: '/guide/gettingstarted'},
+                    {text: 'Getting Started', link: '/guide/getting-started'},
                     {text: 'Graph Databases', link: '/guide/graphdatabases'},
                     {text: "Schema's", link: '/guide/schemas'},
                     {text: "Triple Stores", link: '/guide/triplestores'},
@@ -54,7 +54,7 @@ export default {
             text: 'Edit this page on GitHub'
         },
         nav: [
-            {text: 'Guide', link: '/guide/gettingstarted'},
+            {text: 'Guide', link: '/guide/getting-started'},
             {
                 text: 'Adapters',
                 items: [
