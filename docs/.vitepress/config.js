@@ -50,7 +50,7 @@ export default {
             copyright: 'By <a href="https://graphsandnetworks.com" target="_blank">Orbifold Consulting</a>'
         },
         editLink: {
-            pattern: 'https://github.com/Qwiery/qwiery.github.io.git/edit/main/docs/:path',
+            pattern: 'https://github.com/Qwiery/qwiery.github.io/blob/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
         nav: [
@@ -58,8 +58,7 @@ export default {
             {
                 text: 'Adapters',
                 items: [
-                    {text: 'LevelDB', link: '/adapters/LevelDB/index'},
-                    {text: 'LocalStorage', link: '/adapters/LocalStorage/index'},
+
                     {text: 'Memory', link: '/adapters/Memory/index'},
                     {text: 'Neo4j', link: '/adapters/Neo4j/index'},
                     {text: 'RDF', link: '/adapters/RDF/index'},
@@ -69,7 +68,7 @@ export default {
             {
                 text: 'Plugins',
                 items: [
-                    {text: 'Schema', link: '/plugins/Schema/index'},
+                    {text: 'Schema', link: '/plugins/schema/index'},
                     {text: 'Semantic', link: '/plugins/Semantic/index'}
                 ]
             },

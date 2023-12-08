@@ -1,4 +1,4 @@
 # Qwiery documentation
 
 
-This is the documentation deployed at [Qwiery.github.io](https://qwiery.github.io).
+This is the documentation deployed at [Qwiery.com](https://qwiery.com).

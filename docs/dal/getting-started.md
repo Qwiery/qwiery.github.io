@@ -39,7 +39,7 @@ const b = await q.createNode("b");
 const edge = await q.createEdge("a","b");
 console.log(a, b,edge);
 ```
-A Qwiery plugin extends the API and can be stacked. For example, if you wish to have a graph schema you can hook up the [Schema](https://qwiery.github.io/plugins/Schema/) plugin by first defining a schema (aka ontology):
+A Qwiery plugin extends the API and can be stacked. For example, if you wish to have a graph schema you can hook up the [Schema](https://qwiery.github.io/plugins/schema/) plugin by first defining a schema (aka ontology):
 
 ```js
 const schema = {
