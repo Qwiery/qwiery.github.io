@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as n,Q as a}from"./chunks/framework.b67c47e6.js";const o="/mit.svg",O=JSON.parse('{"title":"Open Source","description":"","frontmatter":{},"headers":[],"relativePath":"oss.md","filePath":"oss.md"}'),t={name:"oss.md"},l=a("",14),i=[l];function p(r,c,d,h,T,I){return e(),n("div",null,i)}const y=s(t,[["render",p]]);export{O as __pageData,y as default};
