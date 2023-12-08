@@ -59,10 +59,10 @@ export default {
                 text: 'Adapters',
                 items: [
 
-                    {text: 'Memory', link: '/adapters/Memory/index'},
-                    {text: 'Neo4j', link: '/adapters/Neo4j/index'},
-                    {text: 'RDF', link: '/adapters/RDF/index'},
-                    {text: 'SQL', link: '/adapters/SQL/index'}
+                    {text: 'Json', link: '/adapters/Json/index'},
+                    {text: 'Cypher', link: '/adapters/Cypher/index'},
+                    {text: 'Sparql', link: '/adapters/Sparql/index'},
+                    {text: 'Sql', link: '/adapters/Sql/index'}
                 ]
             },
             {

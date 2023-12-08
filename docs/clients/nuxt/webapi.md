@@ -18,8 +18,8 @@ The actual code deleting an edge is done inside Qwiery and is defined in the `gr
 console.log("Qwiery backend with JSON adapter enabled.");
 
 const q = new Qwiery({
-    adapters: ["memory"],
-    memory: {
+    adapters: ["json"],
+    json: {
         autoSave: true,
         interval: 5000,
     },

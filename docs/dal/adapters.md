@@ -135,10 +135,10 @@ function MyAdapter(Q) {
 To register the adapter you need something like
 
 ```js
-const q = new Qwiery({adapters: ["my-adapter", "memory"]})
+const q = new Qwiery({adapters: ["my-adapter", "json"]})
 ```
 
-The 'memory' id refers to the default in-memory storage. If you omit it nothing will be stored, not even in memory. You also change this to another adapter of course:
+The 'json' id refers to the default json storage. If you omit it nothing will be stored, not even in memory. You also change this to another adapter of course:
 
 ```js
 const q = new Qwiery({adapters: ["my-adapter", "neo4j"]})

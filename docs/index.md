@@ -12,7 +12,7 @@ features:
       dark: /adapter.dark.svg
       light: /adapter.light.svg
     title: Storage Adapters
-    details: Use your favorite database to store and access graphs:&nbsp;<a href="/adapters/Neo4j/">Neo4j</a>, <a href="/adapters/RDF/">AWS Neptune</a>, <a href="/adapters/SQL/">MySql</a>, ...
+    details: Use your favorite database to store and access graphs:&nbsp;<a href="/adapters/cypher/">Neo4j</a>, <a href="/adapters/sparql/">AWS Neptune</a>, <a href="/adapters/sql/">MySql</a>, ...
   - icon:
       dark: /fast.dark.svg
       light: /fast.light.svg

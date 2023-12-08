@@ -1,6 +1,7 @@
 ---
-title: Neo4j Adapter
+title: Cypher Adapter
 editLink: true
+description: Qwiery Cypher adapter allows you to connect to Neo4j.
 ---
 # Cypher (Neo4j) Adapter
 

@@ -17,7 +17,7 @@ const edge = await q.createEdge("a","b");
 console.log(a, b,edge);
 ```
 
-Qwiery uses by default an in-memory storage adapter, meaning that all you do is volatile and nothing is saved anywhere. Adapters are a special type of plugin which connect to a backend. For example, if you want to transparently have the graphs in [Neo4j](https://qwiery.github.io/adapters/Neo4j/) you would use:
+Qwiery uses by default an in-memory storage adapter, meaning that all you do is volatile and nothing is saved anywhere. Adapters are a special type of plugin which connect to a backend. For example, if you want to transparently have the graphs in [Neo4j](https://qwiery.github.io/adapters/cypher/) you would use:
 
 ```js
 const Qwiery = require("qwiery");
