@@ -59,10 +59,10 @@ export default {
                 text: 'Adapters',
                 items: [
 
-                    {text: 'Json', link: '/adapters/Json/index'},
-                    {text: 'Cypher', link: '/adapters/Cypher/index'},
-                    {text: 'Sparql', link: '/adapters/Sparql/index'},
-                    {text: 'Sql', link: '/adapters/Sql/index'}
+                    {text: 'Json', link: '/adapters/json/index'},
+                    {text: 'Cypher', link: '/adapters/cypher/index'},
+                    {text: 'Sparql', link: '/adapters/sparql/index'},
+                    {text: 'Sql', link: '/adapters/sql/index'}
                 ]
             },
             {
