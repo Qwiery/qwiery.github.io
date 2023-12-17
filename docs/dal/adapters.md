@@ -27,6 +27,23 @@ The sequence you register the plugins does not define by default the way they ar
 
 Adapters can also change the data before it passes it on to the next adapter. The dev example below shows you how.
 
+## Adapter Options
+
+The `adapters` array defines the adapters registered and their sequence. Each adapter can have a set of options which are set via the adapter name (identifier). 
+For instance, if an adapter is called `abc` you can set its options like so:
+
+```js
+const q = new Qwiery({
+    adapters: ["abc"],
+    abc: {
+        option1: "value1",
+        option2: "value2"
+    }
+});
+```
+
+
+
 ## Creating your own adapter
 
 An adapter is slightly more complex than a plugin because of the async nature of storing things and the fact that adapters can be stacked together.

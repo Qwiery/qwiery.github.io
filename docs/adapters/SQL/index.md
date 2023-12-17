@@ -5,13 +5,13 @@ The SQL adapter allows you to use a relational database as a graph database.
 To enable this you need to configure Qwiery as follows:
 
 ```javascript
-import Sqlite from "~/utils/qwiery-sqlite/lib/index.js";
+import Sqlite from "~/utils/qwiery-sql/lib/index.js";
 Qwiery.plugin(Sqlite);
 const filePath = "~/somewhere"
 
 const q = new Qwiery({
-    adapters: ["sqlite"],
-    sqlite: {
+    adapters: ["sql"],
+    sql: {
         dialect: "sqlite",
         storage: filePath,
     },
