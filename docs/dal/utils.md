@@ -5,7 +5,7 @@ cornucopia of utility functions which are used across Qwiery but also have on th
 
 The following (static) classes are available:
 
-- [Utils](#utils) ([source](https://github.com/Qwiery/qwiery/blob/main/packages/qwiery-utils/lib/utils.js))
+- [Utils](#utils) 
 - [Dates](#dates)
 - [DateString](#datestring)
 - [Durations](#durations)
@@ -19,7 +19,7 @@ The following (static) classes are available:
 ## Utils{#utils}
 
 ```js
-const {Utils} = require("qwiery-utils");
+import { Utils } from "@orbifold/utils";
 ```
 
 ### amountToMoneyFormat

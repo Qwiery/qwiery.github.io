@@ -18,11 +18,12 @@ export default {
                     {text: 'Graph Databases', link: '/guide/graphdatabases'},
                     {text: "Schema's", link: '/guide/schemas'},
                     {text: "Triple Stores", link: '/guide/triplestores'},
+                    {text: "Graphs", link: '/guide/graphs'},
 
                 ]
             },
             {
-                text: 'Qwiery Graph API',
+                text: 'Qwiery DAL',
                 items: [
                     {text: 'Introduction', link: '/dal/index'},
                     {text: 'Getting Started', link: '/dal/getting-started'},
