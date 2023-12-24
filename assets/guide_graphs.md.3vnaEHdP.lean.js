@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,R as a}from"./chunks/framework.X8BlTTRm.js";const y=JSON.parse('{"title":"Graphs","description":"","frontmatter":{},"headers":[],"relativePath":"guide/graphs.md","filePath":"guide/graphs.md"}'),d={name:"guide/graphs.md"},s=a("",8),n=[s];function r(i,c,l,p,h,u){return o(),t("div",null,n)}const m=e(d,[["render",r]]);export{y as __pageData,m as default};
