@@ -86,7 +86,8 @@ export default {
                 items: [
                     {text: 'Cytoscape', link: '/graphviz/cytoscape/index'},
                     {text: 'Ogma', link: '/graphviz/ogma/index'},
-                    {text: 'yFiles', link: '/graphviz/yfiles/index'}
+                    {text: 'yFiles', link: '/graphviz/yfiles/index'},
+                    {text: 'Graph View API', link: '/graphviz/graphView'}
                 ]
             }
         ]
