@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as i,R as t}from"./chunks/framework.X8BlTTRm.js";const c=JSON.parse('{"title":"Graphs","description":"","frontmatter":{},"headers":[],"relativePath":"dal/graphs.md","filePath":"dal/graphs.md"}'),e={name:"dal/graphs.md"},h=t("",25),n=[h];function p(l,r,k,o,d,g){return a(),i("div",null,n)}const u=s(e,[["render",p]]);export{c as __pageData,u as default};

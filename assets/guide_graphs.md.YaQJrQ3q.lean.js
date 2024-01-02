@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,U as a}from"./chunks/framework.zPv4qwin.js";const y=JSON.parse('{"title":"Graphs","description":"","frontmatter":{},"headers":[],"relativePath":"guide/graphs.md","filePath":"guide/graphs.md"}'),d={name:"guide/graphs.md"},s=a("",8),n=[s];function r(i,c,l,p,h,u){return t(),o("div",null,n)}const m=e(d,[["render",r]]);export{y as __pageData,m as default};

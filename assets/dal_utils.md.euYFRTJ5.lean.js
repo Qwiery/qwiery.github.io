@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,U as t}from"./chunks/framework.zPv4qwin.js";const E=JSON.parse('{"title":"Qwiery Utils","description":"","frontmatter":{},"headers":[],"relativePath":"dal/utils.md","filePath":"dal/utils.md"}'),e={name:"dal/utils.md"},l=t("",24),n=[l];function h(r,o,p,k,d,c){return a(),i("div",null,n)}const g=s(e,[["render",h]]);export{E as __pageData,g as default};
