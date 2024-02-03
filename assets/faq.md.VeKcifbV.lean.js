@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,V as r}from"./chunks/framework.xaG-8wAQ.js";const m=JSON.parse('{"title":"FAQ","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),o={name:"faq.md"},n=r("",17),i=[n];function s(c,d,h,l,p,u){return t(),a("div",null,i)}const b=e(o,[["render",s]]);export{m as __pageData,b as default};
