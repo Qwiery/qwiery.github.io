@@ -1,6 +1,6 @@
 ---
 title: Linkurious Ogma
 editLink: true
-description: Advance graph visualization using Ogma
+description: Advanced graph visualization using Ogma
 ---
 # Linkurious Ogma

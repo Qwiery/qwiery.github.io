@@ -56,6 +56,7 @@ export default {
         },
         nav: [
             {text: 'Guide', link: '/guide/getting-started'},
+            {text: 'Dashboards', link: '/dashboards/index'},
             {
                 text: 'Adapters',
                 items: [

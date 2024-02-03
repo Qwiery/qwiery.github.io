@@ -3,6 +3,11 @@ layout: home
 title: Documentation
 description: Qwiery is an open source toolbox to create graph-driven apps.
 features:
+  - icon:
+      dark: /dashboard.dark.svg
+      light: /dashboard.light.svg
+    title: Graph BI
+    details: Qwiery Dashboards are a way to visualize data in a more graphical way. They are a collection of widgets that can be arranged in a grid. The widgets can be of various types, such as charts, tables, and maps.  
   - icon: 
       dark: /plugin.dark.svg
       light: /plugin.light.svg
@@ -13,11 +18,7 @@ features:
       light: /adapter.light.svg
     title: Storage Adapters
     details: Use your favorite database to store and access graphs:&nbsp;<a href="/adapters/cypher/">Neo4j</a>, <a href="/adapters/sparql/">AWS Neptune</a>, <a href="/adapters/sql/">MySql</a>, ...
-  - icon:
-      dark: /fast.dark.svg
-      light: /fast.light.svg
-    title: Simple & Flexible
-    details: The Qwiery API is geared towards productivity and minimal friction. You can use it to quickly prototype graph applications and scale it to a robust enterprise application by means of plugins and backend adapters.
+ 
 hero:
   name: Qwiery
   text: <br>Graph Application Framework 
