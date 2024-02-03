@@ -22,6 +22,20 @@ Unlike other dashboard solutions, Qwiery Dashboards are focused on graph-like da
 
 ## Widgets
 
+- **Chart**: A chart widget can be used to visualize data in various ways, such as line charts, bar charts, and pie charts. You can connect a chart widget to a data source to display data from a database, API, or file.
+- **Table**: A table widget can be used to display tabular data. You can connect a table widget to a data source to display data from a database, API, or file.
+- **Map**: A map widget can be used to display geographical data. You can connect a map widget to a data source to display data from a database, API, or file.
+- **Text**: A text widget can be used to display text. You can use Markdown to format the text and to include images and links.
+- **Image**: An image widget can be used to display an image. You can connect an image widget to a data source to display an image from a database, API, or file.
+- **Custom**: You can create custom widgets to fit your specific needs. Custom widgets can be created using HTML, CSS, and JavaScript.
+- **Graph**: A graph widget can be used to visualize graph data. You can connect a graph widget to a graph database to display relationships between entities, such as customers, products, and orders.
+- **Python**: A Python widget can be used to run Python code (client-side via Pyodide). You can use Python to fetch data from a data source, to process the data (including **Scikit-Learn**, **Pandas** and [more](https://pyodide.org/en/stable/usage/packages-in-pyodide.html)), and to display the data in other widgets.
 
+## Data Sources
+
+- **Database**: You can connect widgets to a database to display data from a relational database, such as MySQL, PostgreSQL, or SQL Server.
+- **API**: You can connect widgets to an API to display data from a web service, such as a REST API or GraphQL API.
+- **File**: You can connect widgets to a file to display data from a file, such as a CSV file or JSON file.
+- **Custom**: You can create custom data sources to fit your specific needs. Custom data sources can be created using JavaScript.
 
 
