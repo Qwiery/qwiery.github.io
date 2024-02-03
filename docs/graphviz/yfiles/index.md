@@ -28,3 +28,5 @@ See the pricing calculator on the [yWorks website](https://www.yworks.com/produc
 - Enterprise-grade support and documentation
 - All types of datasource support
 - Support for all JavaScript frameworks and toolchains
+- Amazing documentation 
+- Extensive set of demos and examples
