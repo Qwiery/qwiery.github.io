@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,V as e,ai as t}from"./chunks/framework.7Wm2Ym07.js";const I=JSON.parse('{"title":"Open Source","description":"","frontmatter":{},"headers":[],"relativePath":"oss.md","filePath":"oss.md"}'),i={name:"oss.md"},o=e("",14),p=[o];function l(r,c,d,h,u,T){return a(),n("div",null,p)}const f=s(i,[["render",l]]);export{I as __pageData,f as default};
