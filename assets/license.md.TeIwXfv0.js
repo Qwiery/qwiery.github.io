@@ -1,0 +1,21 @@
+import{_ as s,c as n,o as e,V as a,ah as t}from"./chunks/framework.IB8xUv2s.js";const I=JSON.parse('{"title":"Open Source","description":"","frontmatter":{},"headers":[],"relativePath":"license.md","filePath":"license.md"}'),i={name:"license.md"},o=a('<h1 id="open-source" tabindex="-1">Open Source <a class="header-anchor" href="#open-source" aria-label="Permalink to &quot;Open Source&quot;">​</a></h1><p>Basically, the software is &#39;as is&#39; and without warranty or promises. If you need a more robust commitment, head over to the <a href="/enterprise">enterprise offering</a>.</p><h2 id="mit-license-spdx-id-mit-0" tabindex="-1">MIT License (SPDX-ID: MIT-0) <a class="header-anchor" href="#mit-license-spdx-id-mit-0" aria-label="Permalink to &quot;MIT License (SPDX-ID: MIT-0)&quot;">​</a></h2><img src="'+t+`" style="width:100px;"><p><strong>Freedom</strong>:</p><ul><li>The code and derivatives may be used for commercial purposes.</li><li>The code can be distributed.</li><li>The code can be modified.</li><li>The code can be used and modified in private.</li></ul><p><strong>Condition</strong>:</p><ul><li>A copy of the license and copyright notice must be included with the licensed material.</li></ul><p><strong>Limitations</strong>:</p><ul><li>This license includes a limitation of liability.</li><li>This license explicitly states that it does NOT provide any warranty.</li></ul><p><strong>In full:</strong></p><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>MIT License</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Copyright (c) 2024 Orbifold B.V.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Permission is hereby granted, free of charge, to any person obtaining a copy</span></span>
+<span class="line"><span>of this software and associated documentation files (the &quot;Software&quot;), to deal</span></span>
+<span class="line"><span>in the Software without restriction, including without limitation the rights</span></span>
+<span class="line"><span>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</span></span>
+<span class="line"><span>copies of the Software, and to permit persons to whom the Software is</span></span>
+<span class="line"><span>furnished to do so, subject to the following conditions:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>The above copyright notice and this permission notice shall be included in all</span></span>
+<span class="line"><span>copies or substantial portions of the Software.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span></span>
+<span class="line"><span>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span></span>
+<span class="line"><span>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</span></span>
+<span class="line"><span>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</span></span>
+<span class="line"><span>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</span></span>
+<span class="line"><span>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</span></span>
+<span class="line"><span>SOFTWARE.</span></span></code></pre></div><h2 id="contact" tabindex="-1">Contact <a class="header-anchor" href="#contact" aria-label="Permalink to &quot;Contact&quot;">​</a></h2><p>This template is a stepping stone and we sincerely hope it helps jump-start your own visualizations. It&#39;s neither bug-free nor complete and if you find something isn&#39;t as expected you <a href="https://github.com/Qwiery/qwiery-nuxt/issues" target="_blank" rel="noreferrer">can report it</a> or <a href="https://twitter.com/theorbifold" target="_blank" rel="noreferrer">contact us on X</a>.</p>`,14),p=[o];function l(r,c,d,h,u,T){return e(),n("div",null,p)}const f=s(i,[["render",l]]);export{I as __pageData,f as default};
