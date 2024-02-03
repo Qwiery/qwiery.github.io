@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as e,V as a,aa as t}from"./chunks/framework.wceEd_cB.js";const I=JSON.parse('{"title":"Open Source","description":"","frontmatter":{},"headers":[],"relativePath":"license.md","filePath":"license.md"}'),i={name:"license.md"},o=a("",14),p=[o];function l(r,c,d,h,u,T){return e(),n("div",null,p)}const f=s(i,[["render",l]]);export{I as __pageData,f as default};
