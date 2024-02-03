@@ -60,7 +60,9 @@ export default {
                 text: 'Dashboards',
                 items: [
                     {text: 'Overview', link: '/dashboards/index'},
-                    {text: 'Graph Widget', link: '/dashboards/graph-widget'}
+                    {text: 'Application', link: '/dashboards/application'},
+                    {text: 'Graph Widget', link: '/dashboards/graph-widget'},
+                    {text: 'Markdown Widget', link: '/dashboards/markdown-widget'}
                 ]
             },
             {
