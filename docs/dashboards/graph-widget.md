@@ -7,6 +7,7 @@ The graph widget encapsulates graph visualization driven by a graph database.
 
 ## How to use
 
+- add a graph widget to a dashboard
 - select the 'Graph' option as render option
 - select the graph database
 - write a (Cypher) query to retrieve the data

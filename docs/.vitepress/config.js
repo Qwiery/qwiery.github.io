@@ -62,6 +62,7 @@ export default {
                     {text: 'Overview', link: '/dashboards/index'},
                     {text: 'Application', link: '/dashboards/application'},
                     {text: 'Graph Widget', link: '/dashboards/graph-widget'},
+                    {text: 'Chart Widget', link: '/dashboards/chart-widget'},
                     {text: 'Markdown Widget', link: '/dashboards/markdown-widget'}
                 ]
             },
