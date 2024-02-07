@@ -33,6 +33,9 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/Qwiery/
+    - theme: alt
+      text: Vision & Roadmap
+      link: /vision  
 
 ---
 
