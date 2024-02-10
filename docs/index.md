@@ -28,8 +28,8 @@ hero:
     alt: Qwiery Graph Framework
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/getting-started
+      text: Demo
+      link: https://demo.qwiery.com
     - theme: alt
       text: View on GitHub
       link: https://github.com/Qwiery/
