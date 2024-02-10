@@ -60,10 +60,13 @@ export default {
                 text: 'Dashboards',
                 items: [
                     {text: 'Overview', link: '/dashboards/index'},
-                    {text: 'Application', link: '/dashboards/application'},
                     {text: 'Graph Widget', link: '/dashboards/graph-widget'},
                     {text: 'Chart Widget', link: '/dashboards/chart-widget'},
-                    {text: 'Markdown Widget', link: '/dashboards/markdown-widget'}
+                    {text: 'Markdown Widget', link: '/dashboards/markdown-widget'},
+                    {text: 'Branding', link: '/dashboards/branding'},
+                    {text: 'Sharing', link: '/dashboards/sharing'},
+                    {text: 'Connections', link: '/dashboards/connections'},
+                    {text: 'Toolbar', link: '/dashboards/toolbar'},
                 ]
             },
             {
