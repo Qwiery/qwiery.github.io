@@ -40,6 +40,7 @@ export default {
 					{ text: "Overview", link: "/dashboards/index" },
 					{ text: "Graph Widget", link: "/dashboards/graph-widget" },
 					{ text: "Chart Widget", link: "/dashboards/chart-widget" },
+					{ text: "Python Widget", link: "/dashboards/python-widget" },
 					{ text: "Sharing", link: "/dashboards/sharing" },
 
 				],
@@ -72,6 +73,7 @@ export default {
 					{ text: "Graph Widget", link: "/dashboards/graph-widget" },
 					{ text: "Chart Widget", link: "/dashboards/chart-widget" },
 					{ text: "Markdown Widget", link: "/dashboards/markdown-widget" },
+					{ text: "Python Widget", link: "/dashboards/python-widget" },
 					{ text: "Branding", link: "/dashboards/branding" },
 					{ text: "Sharing", link: "/dashboards/sharing" },
 					{ text: "Connections", link: "/dashboards/connections" },

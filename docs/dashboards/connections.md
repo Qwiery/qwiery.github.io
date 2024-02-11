@@ -2,7 +2,20 @@
 
 Ths panel lists the dashboard connections. Every widget can use a different connection and this is where you can add, edit, and remove connections.
 
-Out of the box we supply the list of freely available [Neo4j Labs](https://neo4j.com/labs/) databases. These are read-only and are meant to be used for testing and learning purposes.
+Out of the box we supply the list of freely available [Neo4j Labs](https://neo4j.com/labs/) databases. These are read-only and are meant to be used for testing and learning purposes:
+
+- [Movies](https://github.com/neo4j-graph-examples/movies) 
+- [Northwind](https://github.com/neo4j-graph-examples/northwind)
+- [Recommendations](https://github.com/neo4j-graph-examples/recommendations)
+- [Fincen](https://github.com/neo4j-graph-examples/fincen)
+- [Twitter](https://github.com/neo4j-graph-examples/twitter-v2)
+- [Stackoverflow](https://github.com/neo4j-graph-examples/stackoverflow)
+- [Game of Thrones](https://github.com/neo4j-examples/game-of-thrones)
+- NeoFlix
+- Wordnet
+- Slack
+
+All of these databases can be queries and explored via this [Neo4j Browser](https://demo.neo4jlabs.com:7473/browser/).
 
 ## Adding a connection
 
