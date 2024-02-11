@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,V as o}from"./chunks/framework.JXV4IW5g.js";const y=JSON.parse('{"title":"Overview","description":"","frontmatter":{},"headers":[],"relativePath":"dal/index.md","filePath":"dal/index.md"}'),i={name:"dal/index.md"},s=o("",12),n=[s];function r(l,d,h,p,c,u){return a(),t("div",null,n)}const m=e(i,[["render",r]]);export{y as __pageData,m as default};
