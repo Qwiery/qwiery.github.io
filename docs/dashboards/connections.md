@@ -46,3 +46,17 @@ To connect to (a local) MemGraph, you will need to provide the following informa
 
 The remaining fields are not necessary. You can test the connection via the button in the lower-left.
 
+## Kuzu
+
+Kuzu is an in-memory graph database that is fully compatible with the Cypher query language. You can download Kuzu from [here](https://kuzudb.com).
+
+Currently Kuzu does not support the bolt protocol and as an in-process database, **Kuzu does not have a server component**. As such, there is not an easy way to connect to this graph database.
+
+We do offer a backend service (Python, NodeJs or .Net) allowing to connect to Kuzu indirectly. Please [contact us](https://graphsandnetworks.com/contact) for more information.
+
+## ArcadeDB
+
+ArcadeDB is a multi-model graph database that is fully compatible with the Cypher query language. You can download ArcadeDB from [here](https://arcadedb.com).
+
+However, ArcadeDB [does not support Neo4j’s Bolt protocol](https://docs.arcadedb.com/#Open-Cypher) and this means you can’t use the integrated Neo4J driver with ArcadeDB server.
+
