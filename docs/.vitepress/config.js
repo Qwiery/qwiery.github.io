@@ -9,6 +9,8 @@ export default {
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Qwiery/" },
 			{ icon: "twitter", link: "https://twitter.com/TheOrbifold" },
+			{ icon: "npm", link: "https://www.npmjs.com/search?q=orbifold" },
+			{ icon: "linkedin", link: "https://www.linkedin.com/in/francoisvanderseypen/" },
 		],
 		sidebar: [
 			{
@@ -54,6 +56,10 @@ export default {
 
 				],
 			},
+			{
+				text: "Entities",
+				link: "/entities/index",
+			}
 
 		],
 		footer: {
