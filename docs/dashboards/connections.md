@@ -33,3 +33,16 @@ You can test the connection via the button in the lower-right.
 
 If you delete a connection, all widgets using that connection will display the error '**Error: Connection '_the name of the database_' not found'**
 
+## MemGraph
+
+Memgraph is a high-performance, in-memory graph database that is fully compatible with the Cypher query language. You can download Memgraph from [here](https://memgraph.com/download).
+
+To connect to (a local) MemGraph, you will need to provide the following information:
+
+- name: only used for display purposes
+- host: localhost
+- port: 7687
+- protocol: bolt
+
+The remaining fields are not necessary. You can test the connection via the button in the lower-left.
+
